@@ -76,7 +76,10 @@ The project is organized into a series of Jupyter Notebooks, each representing a
 
 ---
 
-## 📚 Dataset
+## Implementation via Streamlit
+The current implementation focuses on a content-based course recommendation system using Bag-of-Words (BoW) features and cosine similarity.
+
+## Dataset
 
 The dataset consists of:
 - `user`: Unique user identifiers.
@@ -88,7 +91,7 @@ The dataset consists of:
 
 ---
 
-## 🧠 Techniques Summary
+## Techniques Summary
 
 | Type                     | Techniques / Models                                  |
 |--------------------------|------------------------------------------------------|
@@ -98,7 +101,7 @@ The dataset consists of:
 
 ---
 
-## 📈 Evaluation Metrics
+## Evaluation Metrics
 
 - **RMSE** for regression models.
 - **Classification Accuracy** for mode prediction.
@@ -107,7 +110,7 @@ The dataset consists of:
 
 ---
 
-##  Libraries Used
+## Libraries Used
 
 - Pandas, NumPy
 - Scikit-learn
@@ -117,13 +120,11 @@ The dataset consists of:
 
 ---
 
-##  Future Enhancements
+## Future Works
 
-- Incorporate course metadata (level, duration, topics).
-- Explore transformer-based representations for course content (e.g., BERT embeddings).
-- Implement hybrid recommendation models combining collaborative and content-based signals.
-- Add a user interface or dashboard for live recommendations.
-
+- Integrate the rest of the recommender models into `recommender_app.py` and `backend.py`
+- Modify necessary changes to the UI and add extra options for the dropdown options based on model parameters for each model.
+  
 ---
 
 ##  Author
