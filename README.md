@@ -123,7 +123,7 @@ The dataset consists of:
 ## Future Works
 
 - Integrate the rest of the recommender models into `recommender_app.py` and `backend.py`
-- Modify necessary changes to the UI and add extra options for the dropdown options based on model parameters for each model.
+- Modify necessary changes to the UI and add extra options for the dropdown menu (Model Selection) based on model parameters for each model.
   
 ---
 
