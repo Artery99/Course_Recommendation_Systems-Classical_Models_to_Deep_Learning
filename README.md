@@ -126,7 +126,7 @@ The dataset consists of:
 
 ---
 
-## 🤝 Author
+##  Author
 
 **Hadi Mekdad**
 
